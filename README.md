@@ -6,4 +6,4 @@
 
 # My solution
 - Of course after booting into the usb I was greeted with the live shell, my pacman wasnt working so I needed to connect to my internet via iwctl. After connecting successfully i needed to install gcclibs via pacstrap which is the same as pacman but for initializing new linux systems, so it comes with the defaults and essentials. I first mounted my main partition and ran pacstrap -K gcc-libs, where it installs successfuly, after thinking this was my solution, I unmount my main partition via umount -R and then rebooted. After rebooting i was greeted with my grub bootloader and i chose my linux environment, 20 seconds in and i was greeted with a kernel panic
-- [img]()
+- [img](664379911_1251194193887167_8698706767023016689_n.jpg)
